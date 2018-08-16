@@ -1,1 +1,1 @@
-# yolla-gitsin
+# SSH ile Dosya aktarımını mümkün kılan script.
