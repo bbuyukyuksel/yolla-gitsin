@@ -196,6 +196,7 @@ class STATES:
 					isSameData = CONTROLLER.isDictSame(append_data,conf["user"])	
 			except:
 				conf = {"user":[]}
+				os.mkdir("Conf")
 			finally:
 				if not(isSameData):
 					with open("Conf/conf.json","w") as f:	
